@@ -1,0 +1,1 @@
+#write print("hello python") in idle shell directly
