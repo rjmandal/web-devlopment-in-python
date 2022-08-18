@@ -1,1 +1,1 @@
-print(int(b))
+int(bin(b))
