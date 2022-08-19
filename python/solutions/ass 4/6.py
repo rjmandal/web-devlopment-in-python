@@ -1,0 +1,1 @@
+print("area of this triangle is ",int(input("enter height ==>> "))*int(input("enter base ==>> "))/2)

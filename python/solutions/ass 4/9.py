@@ -1,0 +1,1 @@
+print("result ==>> ",int(input("enter length ==>> "))*int(input("enter width ==>> "))*int(input("enter height ==>> ")))

@@ -1,0 +1,1 @@
+print("result ==>> ",int(input("enter principle amount ==>> "))*int(input("enter rate of interst ==>> "))*int(input("enter time period ==>> "))/100)
