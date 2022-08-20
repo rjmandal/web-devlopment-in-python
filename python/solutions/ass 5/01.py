@@ -1,0 +1,1 @@
+print("result",int(input("enter the no ==>> "))//10)
