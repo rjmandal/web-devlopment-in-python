@@ -1,1 +1,2 @@
-#go to cmd and type py
+import sys
+print(sys.version)

@@ -1,0 +1,1 @@
+input("enter a compelx no ==>> ")
