@@ -1,4 +1,4 @@
 n=int(input("enter the no ==>> "))
 while n:
-    print("MySirG")
+    print(n)
     n-=1
