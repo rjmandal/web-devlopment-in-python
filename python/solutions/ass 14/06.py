@@ -1,4 +1,4 @@
-#4. Write a Python script to find the greatest number in a given list of numbers.
+'''6. Write a Python script to calculate the sum of elements in a given list of numbers.'''
 
 n=int(input("enter n no you want to enter in a list==>> "))
 l=[]
@@ -8,4 +8,4 @@ while i<n:
     l.append(int(input()))
     i+=1
 print("you enterd this list ==>> ",l)
-print("max no in this list ==>> ",max(l))
+print("sumof the no in this list ==>> ",sum(l))
