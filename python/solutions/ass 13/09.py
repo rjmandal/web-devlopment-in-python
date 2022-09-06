@@ -1,3 +1,5 @@
+# 9. Write a Python script to create a list of city names taken from the user.
+
 n=int(input("enter the no of city names you want to enter ==>> "))
 l1=[]
 i=0
