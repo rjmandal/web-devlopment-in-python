@@ -8,4 +8,4 @@ while i<n:
     l.append(int(input()))
     i+=1
 print("you enterd this list ==>> ",l)
-print("sumof the no in this list ==>> ",sum(l))
+print("sum of the no in this list ==>> ",sum(l))
