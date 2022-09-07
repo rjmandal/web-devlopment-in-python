@@ -1,11 +1,9 @@
 '''7. Write a Python script to remove all non int values from a list.'''
 
-n=int(input("enter n no you want to enter in a list==>> "))
-l=[]
-i=0
-print("enter the ",n," no in a list")
-while i<n:
-    l.append(int(input()))
-    i+=1
-print("you enterd this list ==>> ",l)
-print("sumof the no in this list ==>> ",sum(l))
+l=["sanjay",23,199,"mandal",3+4j,True,4.5]
+print("list ==>> ",l)
+for e in l:
+    print(type(e))
+    # if e
+    del e
+print(l)
