@@ -1,6 +1,1 @@
-no=int(input("enter the no ==>> "))
-if  no%2==0:
-    print("even")
-else:
-    print("odd")
-    
+print("even" if int(input("enter the no ==>> "))%2 else "even")
