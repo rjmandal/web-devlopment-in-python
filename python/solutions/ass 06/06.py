@@ -1,5 +1,2 @@
 
-if 100<=int(input("enter the no ==>> "))<=999:
-    print("yes")   
-else:
-    print("no")
+print("yes" if 99<int(input("enter the no ==>> "))<1000 else "no")

@@ -1,9 +1,2 @@
-y=int(input("enter a year ==>> "))
-# if   y%100: 
-#     print("leap ")
-# elif y%400:
-#     print("leap ")
-if y%4:
-    print("not a leap year")
-else:
-    print("leap year")
+year=int(input("enter a year ==>> "))
+print("leap year" if year%400==0 or year%100!=0 and year%4==0 else "not a leap year")
