@@ -1,3 +1,6 @@
+'''1. Write a python script to display the number of days in a given month number.'''
+
+
 month=int(input("enter the month no ==>> "))
 match month:
     case month if month in (1,3,5,7,8,10,12):
