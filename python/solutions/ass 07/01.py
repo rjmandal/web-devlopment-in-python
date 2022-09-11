@@ -1,27 +1,10 @@
-match int(input("enter the month no ==>> ")):
-    case 1:
-        print("31")
+month=int(input("enter the month no ==>> "))
+match month:
+    case month if month in (1,3,5,7,8,10,12):
+        print("31 days")
+    case month if month in (4,6,9,11):
+        print("30 days ")
     case 2:
-        print("29")
-    case 3:
-        print("31")
-    case 4:
-        print("30")
-    case 5:
-        print("31")
-    case 6:
-        print("30")
-    case 7:
-        print("31")
-    case 8:
-        print("30")
-    case 9:
-        print("31")
-    case 10:
-        print("30")
-    case 11:
-        print("31")
-    case 12:
-        print("30")
+        print("29 days ")
     case _:
-        print("invalid month")
+        print("invalid month number")
