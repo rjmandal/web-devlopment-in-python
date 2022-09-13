@@ -1,4 +1,4 @@
 n=10
 while n:
-   print(n)
+   print(n,end=' ')
    n-=1 
