@@ -1,9 +1,12 @@
 '''2. Create a generator to produce first n odd natural numbers'''
 
-def generator(n):
+def oddproducer(n):
+    e=1
     while n:
-        yield e*2-1
+        yield e
+        e+=2
         n-=1
 
-print(generator(int(input("enter the no ==>> "))))
+for e in oddproducer(int(input("enter the no ==>> "))):
+    print(e,end=" ")
 
