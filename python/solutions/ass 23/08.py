@@ -12,9 +12,12 @@ def primeproducer():
                         
 it =primeproducer()
 list=[]
-ans=input("enter [y/n] ==>> ")
-if ans =="y":
-    e=next(it)
-    print(e)
-    list.append(e)
+while True:
+    ans=input("enter [y/n] ==>> ")
+    if ans =="y":
+        e=next(it)
+        print(e)
+        list.append(e)
+    else:
+        break
 print(list)
