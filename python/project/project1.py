@@ -5,14 +5,16 @@ in random sequence. Give the user score +1 for each correct answer and give -1 f
 wrong answer. At last print the final score. You can store any number of words in the list, but
 in each round of the game only 5 words are shown to the user.'''
 
-list=['RAEHTF','KABRE','SYAJNA','RENEG','OAERELANP']
-list1=['father','bakre','sanjay','green','aeroplane']
+import random
+list=['RAEHTF','KABRE','SYAJNA','RENEG','OAERELANP','ANDALM']
+list1=['father','brake','sanjay','green','aeroplane','mandal']
 score=0
 for e in range(5):
     print('Arrange the letters to form a valid word:')
-    print(list[e])
+    n=random.randint(0,5)
+    print(list[n])
     ans=input()
-    if ans==list1[e]: 
+    if ans==list1[n]: 
         print("\nCorrect\n")
         score+=1
     else:
